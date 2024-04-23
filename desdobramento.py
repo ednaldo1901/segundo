@@ -5,7 +5,7 @@ def obter_dados_jogo(numero_jogo):
     print(f"Digite os dados para o jogo {numero_jogo}:")
     equipe1_nome = input(f"Nome da equipe 1 do jogo {numero_jogo}: ")
     equipe1_odd = float(input(f"Odd da equipe 1 do jogo {numero_jogo}: "))
-    equipe2_nome = input(f"Nome da equipe 2 do jogo {numero_jogo}: ")
+    equipe2_nome = input(f"Nom da equipe 2 do jogo {numero_jogo}: ")
     equipe2_odd = float(input(f"Odd da equipe 2 do jogo {numero_jogo}: "))
     return (equipe1_nome, equipe1_odd), (equipe2_nome, equipe2_odd)
 
